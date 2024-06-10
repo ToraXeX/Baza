@@ -1,0 +1,122 @@
+/* Стили для шапки */
+header {
+    background-color: #27ae60; /* Зеленый цвет для шапки */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Стили для навигации */
+.navigation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000000; /* Синий цвет для ссылок */
+    font-size: 1.5em;
+    margin: 0 20px;
+    transition: color 0.3s; /* Плавное изменение цвета текста при наведении */
+}
+
+.navigation a:hover {
+    color: #e74c3c; /* Красный цвет для текста при наведении на ссылку */
+}
+
+/* Стили для основного контента */
+main {
+    background-color: #f39c12; /* Оранжевый цвет для основного контента */
+    padding: 40px;
+}
+
+/* Стили для меню */
+.menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px;
+    background-color: #2ecc71; /* Зеленый цвет фона для кнопок */
+    border-radius: 10px;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+}
+
+.menu-content a:hover {
+    background-color: #e74c3c; /* Красный цвет фона для кнопок при наведении */
+}
+
+/* Стили для таблицы */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.table th, .table td {
+    border: 2px solid #2c3e50; /* Темно-серый цвет для границ ячеек таблицы */
+    padding: 15px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #3498db; /* Синий цвет фона для заголовков таблицы */
+    color: #fff;
+}
+
+.table tr:nth-child(even) {
+    background-color: #ecf0f1; /* Светло-серый цвет фона для четных строк таблицы */
+}
+
+/* Стили для кнопки добавления нового элемента */
+.add-new-link {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    background-color: #27ae60; /* Зеленый цвет фона для кнопки */
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+}
+
+.add-new-link:hover {
+    background-color: #e74c3c; /* Красный цвет фона для кнопки при наведении */
+}
+
+/* Стили для уведомлений */
+.notices {
+    margin-top: 20px;
+}
+
+.notice {
+    padding: 20px;
+    background-color: #e74c3c; /* Красный цвет фона для уведомлений */
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
